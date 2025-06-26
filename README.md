@@ -1,2 +1,23 @@
-# API-completa-e-eficiente-para-acessar-e-manipular-dados-da-Champions-League-
-Entenda de uma vez como criar uma API completa e eficiente para acessar e manipular dados da Champions League, utilizando Node.js e o framework Express. Esta API proporciona integração com informações detalhadas sobre equipes, jogadores, partidas e classificações, ideal para plataformas que demandam acesso rápido e confiável
+Passo a Passo para Implementação
+1. Configuração Inicial do Projeto
+Crie um diretório para o projeto e inicialize o npm:
+
+
+mkdir champions-league-api
+cd champions-league-api
+npm init -y
+
+
+Instale as dependências principais:
+npm install express body-parser cors dotenv
+
+Instale dependências de desenvolvimento:
+npm install --save-dev nodemon
+
+Adicione os scripts no package.json:
+
+jsonCopiar código
+"scripts": {
+  "dev": "nodemon src/index.js",
+  "start": "node src/index.js"
+}
